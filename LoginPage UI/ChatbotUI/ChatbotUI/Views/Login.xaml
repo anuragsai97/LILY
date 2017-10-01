@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:local="clr-namespace:ChatbotUI;assembly=ChatbotUI"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="ChatbotUI.Views.Login">
+
+    <ContentPage.Content>
+
+
+        <StackLayout  Padding="20,20,20,20" BackgroundColor="#1B4F72">
+
+            <Image Source="logo.png" />
+            
+            <Label Text="LILY" 
+                   TextColor="Silver"
+                   FontSize="Large" 
+                   HorizontalTextAlignment="Center"
+                   Margin="10"/>
+
+            <local:MyEntry Placeholder="Net ID" 
+                           PlaceholderColor="Silver"
+                           HorizontalTextAlignment="Center"                          
+                           FontSize="Large"
+                           HeightRequest="50"
+                           Margin="10"/>
+
+            <local:MyEntry Placeholder="Password"
+                           IsPassword="True"
+                           PlaceholderColor="Silver"
+                           HorizontalTextAlignment="Center"                          
+                           FontSize="Large"
+                           HeightRequest="50"
+                           Margin="10"/>
+
+            <local:MyButton Text="Log In"
+                            FontSize="Large"
+                            TextColor="White"
+                            HeightRequest="50"
+                            BackgroundColor="#48C9B0"
+                            Clicked="Button_Clicked"
+                            Margin="10"/>
+
+        </StackLayout>
+
+
+    </ContentPage.Content>
+
+    
+    
+</ContentPage>
