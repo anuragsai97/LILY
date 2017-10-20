@@ -17,7 +17,7 @@ namespace HostelDetails.Views
         void OnButtonClicked(object sender, EventArgs args)
         {
             //string hostel_details;
-            Uri uri = new Uri("http://192.168.1.37/hostel.php?name="+name);
+            Uri uri = new Uri("http://your-server-ip/hostel.php?name="+name);
             WebRequest request = WebRequest.Create(uri);
             request.BeginGetResponse((result) =>
             {
