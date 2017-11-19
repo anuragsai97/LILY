@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SNUInternetUsage.Internet"
+             xmlns:l="clr-namespace:SNUInternetUsage.CustomRenderer"
+             xmlns:local="clr-namespace:SNUInternetUsage">
+
+
+    <Frame
+            BackgroundColor="#D3D3D3"
+            Margin="5"
+            HorizontalOptions="StartAndExpand"
+            >
+        <StackLayout
+                Orientation="Vertical"
+                HorizontalOptions="StartAndExpand">
+
+            <local:CircularProgressControl x:Name="progressControl"
+                                               Progress="0" 
+                                               WidthRequest="50" 
+                                               HeightRequest="50"/>
+            <Button Clicked="Button_Clicked"></Button>
+
+            <Label x:Name="hello"></Label>
+
+            <l:WebViewer x:Name="DataWebView"
+                           HeightRequest="0"
+                         WidthRequest="0"
+                             Source="https://myaccount.snu.edu.in/login.php" 
+                             IsVisible="False"/>
+
+        </StackLayout>
+
+    </Frame>
+
+
+
+
+    
+</ContentPage>

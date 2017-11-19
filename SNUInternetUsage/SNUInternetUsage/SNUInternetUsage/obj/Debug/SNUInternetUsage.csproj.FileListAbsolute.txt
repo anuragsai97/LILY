@@ -1,0 +1,17 @@
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\SNUInternetUsage.dll
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\SNUInternetUsage.pdb
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\obj\Debug\SNUInternetUsage.csprojResolveAssemblyReference.cache
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\obj\Debug\SNUInternetUsage.csproj.CoreCompileInputs.cache
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\obj\Debug\SNUInternetUsage.MainPage.xaml.g.cs
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\obj\Debug\SNUInternetUsage.App.xaml.g.cs
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\obj\Debug\SNUInternetUsage.Internet.xaml.g.cs
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\obj\Debug\SNUInternetUsage.dll
+c:\users\pdn srnivas\source\repos\SNUInternetUsage\SNUInternetUsage\SNUInternetUsage\obj\Debug\SNUInternetUsage.pdb
