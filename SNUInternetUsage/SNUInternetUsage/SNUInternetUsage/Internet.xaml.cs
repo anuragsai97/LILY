@@ -24,15 +24,28 @@ namespace SNUInternetUsage
             InitializeComponent();
 
             DataWebView.Source = "https://myaccount.snu.edu.in/login.php";
-            //string firsturl = "https://myaccount.snu.edu.in/login.php";
-
-           
-
-            
+            //string firsturl = "https://myaccount.snu.edu.in/login.php";    
+            DataWebView.Navigated += loginActivity;
 
         }
 
+        private void loginActivity(object sender, WebNavigatedEventArgs e)
+        {
+            string user = "username";
+            string password = "password";
+            string evaluate = "document.getElementById('snuNetId').value = '" + user + "'";
+            //DataWebView.Eval(evaluate);
 
+            string evaluate2 = "document.getElementById('password').value = '" + password + "'";
+            //DataWebView.Eval(evaluate2);
+
+            string login = "document.getElementsByName(\"submit\")[0].click()";
+            DataWebView.Eval(evaluate + ';' + evaluate2 + ';' + login + ';');
+
+
+
+            DataWebView.Navigated += OnNavigatedHandler;
+        }
 
         public void OnNavigatedHandler(object sender, WebNavigatedEventArgs args)
         {
@@ -101,7 +114,7 @@ namespace SNUInternetUsage
             double fd = double.Parse(finaldata, CultureInfo.InvariantCulture);
             double td = 3.0;
 
-            hello.Text = finaldata;
+            data.Text = finaldata;
 
             if (fd < td)
             {
@@ -136,23 +149,6 @@ namespace SNUInternetUsage
             progressControl.Progress = progress;
             return true;
         }
-
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            string user = "username";
-            string password = "password";
-            string evaluate = "document.getElementById('snuNetId').value = '" + user + "'";
-            //DataWebView.Eval(evaluate);
-
-            string evaluate2 = "document.getElementById('password').value = '" + password + "'";
-            //DataWebView.Eval(evaluate2);
-
-            string login = "document.getElementsByName(\"submit\")[0].click()";
-            DataWebView.Eval(evaluate + ';' + evaluate2 + ';' + login + ';');
-
-
-
-            DataWebView.Navigated += OnNavigatedHandler;
-        }
+        
     }
 }

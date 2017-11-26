@@ -11,7 +11,7 @@
 namespace SNUInternetUsage {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\pdn srnivas\\source\\repos\\SNUInternetUsage\\SNUInternetUsage\\SNUInternetUs" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\PDN SRNIVAS\\source\\repos\\SNUInternetUsage\\SNUInternetUsage\\SNUInternetUs" +
         "age\\Internet.xaml")]
     public partial class Internet : global::Xamarin.Forms.ContentPage {
         
@@ -19,7 +19,7 @@ namespace SNUInternetUsage {
         private global::SNUInternetUsage.CircularProgressControl progressControl;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label hello;
+        private global::Xamarin.Forms.Label data;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::SNUInternetUsage.CustomRenderer.WebViewer DataWebView;
@@ -28,7 +28,7 @@ namespace SNUInternetUsage {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Internet));
             progressControl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::SNUInternetUsage.CircularProgressControl>(this, "progressControl");
-            hello = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "hello");
+            data = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "data");
             DataWebView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::SNUInternetUsage.CustomRenderer.WebViewer>(this, "DataWebView");
         }
     }
